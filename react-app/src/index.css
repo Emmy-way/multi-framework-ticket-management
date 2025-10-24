@@ -1,0 +1,116 @@
+.global {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.button-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.button-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.button-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Messages */
+.error-message {
+    color: #dc3545;
+}
+
+.success-message {
+    color: #28a745;
+}
+
+/* Toast Notifications */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+/* Badge Styles */
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+}
+
+.badge-open {
+    background-color: #28a745; /* Green */
+}
+
+.badge-in-progress {
+    background-color: #ffc107; /* Amber */
+}
+
+.badge-closed {
+    background-color: #6c757d; /* Gray */
+}
+
+/* Media Queries for mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

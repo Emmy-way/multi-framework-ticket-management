@@ -1,0 +1,85 @@
+/* Auth.css - Styles for Login and Signup pages */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+auth-container {
+  width: 100%;
+  max-width: 450px;
+}
+
+auth-card {
+  background: white;
+  padding: 40px;
+  text-align: center;
+}
+
+auth-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+auth-subtitle {
+  color: #6b7280;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+auth-card form {
+  text-align: left;
+}
+
+auth-button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  font-size: 1rem;
+}
+
+auth-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+auth-footer p {
+  margin: 10px 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+auth-footer a {
+  color: #4F46E5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+auth-footer a:hover {
+  text-decoration: underline;
+}
+
+demo-credentials {
+  background-color: #f3f4f6;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #374151;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .auth-card {
+    padding: 30px 20px;
+  }
+
+  .auth-card h1 {
+    font-size: 1.75rem;
+  }
+}
